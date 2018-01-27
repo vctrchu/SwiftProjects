@@ -9,3 +9,13 @@ I learned how to:
 * Use Timer function
 * Round numbers to 2 decimals to be displayed
 
+Project 02 - Map View and Annotations
+
+![](https://github.com/victorchu8/SwiftProjects/blob/master/Project%2002%20-%20MapviewAndAnnotations/MapviewAndAnnotations.gif)
+
+I learned how to:
+* Use MapKit
+* Geocoding
+* User location authorization
+* Annotations (pins)
+
