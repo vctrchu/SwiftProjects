@@ -20,7 +20,8 @@ class LocationVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
     
     let addresses = [
         "One Infinite Loop, Cupertino, CA 95014, USA",
-        "2000 Airport Rd NE, Calgary, AB T2E 6Z8"
+        "10625 N De Anza Blvd, Cupertino, CA 95014, USA",
+        "10889 N De Anza Blvd, Cupertino, CA 95014, USA"
     ]
     
     override func viewDidLoad() {
@@ -28,6 +29,7 @@ class LocationVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
         map.delegate = self
         tableView.delegate = self
         tableView.dataSource = self
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -40,7 +42,6 @@ class LocationVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -83,7 +84,7 @@ class LocationVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
     
     //Intercepts pindrop annotation before placed (customization)
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        
+
         if annotation.isKind(of: Annotation.self) {
             let annoView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "Default")
             //annoView.pinTintColor = UIColor.blue
@@ -92,7 +93,7 @@ class LocationVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
         } else if (annotation.isKind(of: MKUserLocation.self)) {
             return nil
         }
-        
+
         return nil
     }
     
