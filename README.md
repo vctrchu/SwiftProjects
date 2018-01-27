@@ -3,3 +3,9 @@
 Project 01 - Simple Stop Watch
 
 ![](https://github.com/victorchu8/SwiftProjects/blob/master/1%20-%20SimpleStopWatch/SimpleStopWatch.gif)
+
+I learned how to:
+Markup: * Use constraints and stack views to pin buttons/label
+	* Use Timer function
+	* Round numbers to 2 decimals to be displayed
+
