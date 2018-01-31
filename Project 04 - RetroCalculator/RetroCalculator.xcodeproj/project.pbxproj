@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB4F084D2022816F003BA578 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB4F084C2022816F003BA578 /* btn.wav */; };
 		FBB508A7202234B900B58CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB508A6202234B900B58CCA /* AppDelegate.swift */; };
 		FBB508A9202234B900B58CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB508A8202234B900B58CCA /* ViewController.swift */; };
 		FBB508AC202234B900B58CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB508AA202234B900B58CCA /* Main.storyboard */; };
 		FBB508AE202234B900B58CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB508AD202234B900B58CCA /* Assets.xcassets */; };
 		FBB508B1202234B900B58CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB508AF202234B900B58CCA /* LaunchScreen.storyboard */; };
 		FBB508B920223D7500B58CCA /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBB508B820223D7500B58CCA /* Minecraft.ttf */; };
+		FBF0F15220228511008B30E6 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBF0F15120228511008B30E6 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FB4F084C2022816F003BA578 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		FBB508A3202234B900B58CCA /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB508A6202234B900B58CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB508A8202234B900B58CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		FBB508B0202234B900B58CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBB508B2202234B900B58CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBB508B820223D7500B58CCA /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		FBF0F15120228511008B30E6 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		FBB508A5202234B900B58CCA /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				FB4F084C2022816F003BA578 /* btn.wav */,
+				FBF0F15120228511008B30E6 /* btn.wav */,
 				FBB508B820223D7500B58CCA /* Minecraft.ttf */,
 				FBB508A6202234B900B58CCA /* AppDelegate.swift */,
 				FBB508A8202234B900B58CCA /* ViewController.swift */,
@@ -129,7 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB4F084D2022816F003BA578 /* btn.wav in Resources */,
+				FBF0F15220228511008B30E6 /* btn.wav in Resources */,
 				FBB508B1202234B900B58CCA /* LaunchScreen.storyboard in Resources */,
 				FBB508AE202234B900B58CCA /* Assets.xcassets in Resources */,
 				FBB508B920223D7500B58CCA /* Minecraft.ttf in Resources */,
