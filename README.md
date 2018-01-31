@@ -1,7 +1,6 @@
-SwiftProjects
-==============
+# SwiftProjects
 
-## Project 01 - Simple Stop Watch
+### Project 01 - Simple Stop Watch
 
 ![](https://github.com/victorchu8/SwiftProjects/blob/master/Project%2001%20-%20SimpleStopWatch/SimpleStopWatch.gif)
 
@@ -10,7 +9,7 @@ I learned how to:
 * Use Timer function
 * Round numbers to 2 decimals to be displayed
 
-## Project 02 - Map View and Annotations
+### Project 02 - Map View and Annotations
 
 ![](https://github.com/victorchu8/SwiftProjects/blob/master/Project%2002%20-%20MapviewAndAnnotations/MapviewAndAnnotations.gif)
 
@@ -20,7 +19,7 @@ I learned how to:
 * User location authorization
 * Annotations (pins)
 
-## Project 03 - Multiples (Simple Adding Calculator)
+### Project 03 - Multiples (Simple Adding Calculator)
 
 ![](https://github.com/victorchu8/SwiftProjects/blob/master/Project%2003%20-%20Mulitples/giphy.gif)
 
